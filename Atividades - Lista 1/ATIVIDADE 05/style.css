@@ -1,0 +1,282 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header {
+    background-color:  #0f0350;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    padding: 30px 50px;
+    display: flex;
+    height: 45px;
+
+
+}
+
+a {
+    text-decoration: none;
+    color:white;
+    font-size: 25px;
+    margin: 0 20px;
+}
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+   
+}
+
+.inicio {
+    background-color: #170861;
+    color: white;
+    padding: 40px 100px 0PX;
+    height: 361px;
+}
+
+
+
+.titulo-inicio {
+    font-size: 50px;
+ 
+}
+.texto-inicio {
+    font-size: 30px;
+    width: 85%;
+    margin: 20px 0px 0px 0px;
+}
+
+.titulo {
+    font-size: 50px;
+    margin: 20px 50px;
+    color: #0f0350;
+}
+
+.texto {
+    display: flex;
+    align-items: center;
+  justify-content: center;
+  justify-items: center;
+    font-size: 25px;
+    color: black;
+    margin: 20px 50px;
+    text-align: justify;
+}
+
+.logo {
+    width: 120px;
+    height: 120px;
+}
+
+.imagem img {
+    width: 500px;
+    height: 365px;
+
+}
+
+.meio {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f5efd7;
+    color: #0f0350;
+    padding: 80px 120px;
+    height: 50%;
+    
+    
+}
+
+
+img {
+    width: 400px;
+    height: 500px;
+    border-radius: 20px;
+}
+
+.figura1 {
+    width: 400px;
+}
+
+
+.figura2 {
+    width: 400px;
+    margin-top: -60px;
+  
+
+}
+
+.fim {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f5efd7;
+    color: #0f0350;
+    padding: 80px 120px;
+    height: 50%;
+ 
+}
+.diferente {
+     background-color: #170861;
+     
+ }
+.caixa {
+    border: 1px solid #ffffff;
+    width: 230px;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color:#0f0350;
+    margin: 80px 50px 80px 50px;
+}
+
+h4 {
+    text-align: center;
+    color: #ffffff ;
+    width: 200px;
+}
+
+.prato {
+    border: 2px solid black;
+    width: 250px;
+    height: 270px;
+    text-align: center;
+    margin: 40px 60px;
+    padding: 7px;
+    background-color: antiquewhite;
+
+}
+.comidas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: antiquewhite;
+}
+
+.comidas img {
+    width: 200px;
+    height: 180px;
+}
+
+#nossoCardapio {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: antiquewhite;
+
+}
+
+.prato p, h5 {
+    margin-top: 10px;
+}
+
+.cardapio {
+    margin: 50px 40px;
+    font-size: 40px;
+    color: #0f0350;
+}
+
+.caixa img {
+    width: 80px;
+    height: 80px;
+    margin-top: 10px;
+}
+
+.fundo {
+    background-color: #170861;
+    color: white;
+    padding: 40px 100px 0PX;
+    height: 525px;
+    border-radius: 30px;
+
+  
+    
+}
+
+.formulario {
+    background-color: #f5efd7;
+    color: white;
+    padding: 40px 100px 0PX;
+    height: 645px ;
+}
+
+.titulo-formulario {
+font-size: 30px;
+text-align: center
+
+}
+
+.titulo2 {
+    font-size: 50px;
+    margin: 20px 50px;
+    color: #0f0350;
+    margin-top: -20px;
+}
+
+.texto2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    font-size: 25px;
+    color: black;
+    margin: 20px 50px;
+    text-align: justify;
+ 
+}
+
+.contato {
+    height: 500px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+   
+
+}
+
+label {
+    color: white;
+    font-size: 30px;
+    margin-bottom: 10px;
+   
+}
+
+input {
+    background-color: #E8E8E8;
+    font-size: 20px;
+    padding: 5px;
+  
+}
+
+.contato input {
+    margin-bottom: 25px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items:  flex-start;
+}
+
+button {
+    padding:5px 7px;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: white;
+}
+
+.gato {
+    margin-top: -20px;
+}

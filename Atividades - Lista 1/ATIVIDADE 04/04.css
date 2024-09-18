@@ -1,0 +1,98 @@
+@font-face {
+    font-family: "mont";
+    src: url(./Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+body{
+    background-color: rgb(230, 245, 209);
+}
+
+h5{
+    color:rgb(0, 116, 31);
+    font-size: 80px;
+    text-align: center;
+    padding: 40px;
+    font-family: "mont", sans-serf;
+    margin: 10px;
+
+}
+
+h1{
+    color:rgb(28, 135, 106);
+    font-size: 50px;
+    text-align: center;
+    padding: 40px;
+    font-family: "mont", sans-serf;
+    margin-top: -40px;
+}
+
+p{
+    color:rgb(0, 0, 0);
+    font-size: 30px;
+    text-align: justify;
+    padding: 40px;
+    font-family: "mont", sans-serf;
+}
+
+.mitski{
+width: 100%;
+
+}
+
+#dov{
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    color:rgb(28, 135, 106);
+    font-size: 50px;
+    text-align: center;
+    padding: 40px;
+    font-family: "mont", sans-serf;
+    margin-top: -40px;
+    
+}
+h3{
+    color:rgb(20, 116, 31);
+    font-size: 40px;
+    text-align: left;
+    padding: 40px;
+    font-family: "mont", sans-serf;
+}
+
+img{
+    width: 50%;
+    height: 50%;
+    border-radius: 30px; 
+}
+
+a {
+    color:rgb(0, 0, 0);
+    font-size: 40px;
+    text-align: left;
+    padding: 40px;
+    text-decoration: dashed;
+    font-family: "mont", sans-serf;
+}
+
+
+
+.intro {
+    margin: 10px 10px;
+}
+
+.info {
+   margin-top: -80px;
+}
+
+.titulo {
+    margin-top: -30px;
+}
+
+.info-geral {
+    margin-top: -40px;
+}
+
+.sucesso {
+    margin-top: -40px;
+}

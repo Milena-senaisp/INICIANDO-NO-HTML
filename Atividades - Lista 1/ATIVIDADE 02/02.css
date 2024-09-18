@@ -1,0 +1,96 @@
+@font-face {
+    font-family: "mont";
+    src: url(./font/Montserrat-VariableFont_wght.ttf);
+}
+h1 {
+        color:rgb(0, 0, 0);
+        font-size: 50px;
+        text-align: center;
+        padding: 30px;
+        font-family: "mont", sans-serf;
+    }
+    
+    h2 { 
+        color:rgb(90, 0, 0);
+        font-size: 50px;
+        text-align: center;
+        font-family: "mont", sans-serf;
+        margin: 50px 0px 10px 10px;
+    }
+
+    p{
+        color:rgb(0, 0, 0);
+        font-size: 30px;
+        text-align: justify;
+        padding: 30px;
+        font-family: "mont", sans-serf;
+        margin-top: -60px;
+    }
+
+    h5{
+        color:rgb(255, 196, 0);
+        font-size: 60px;
+        text-align: center;
+        font-family: "mont", sans-serf;
+        margin: 12px;
+
+    }
+
+    body{
+        background-color: hwb(56 74% 0%);
+    }
+    img{
+        width: 680px;
+        height: 750px;
+        border-radius: 20px; 
+        margin-top: 40px;
+
+    }
+
+    #dov{
+        display: flex;
+        justify-content: center;
+    }
+    
+    h3{
+        color:rgb(0, 0, 0);
+        font-size: 40px;
+        text-align: left;
+        padding: 30px;
+        font-family: "mont", sans-serf;
+    }
+
+    h4{
+        color:rgb(90, 0, 0);
+        font-size: 30px;
+        text-align: left;
+        padding: 30px;
+        font-family: "mont", sans-serf;
+    }
+
+    a{
+        color:rgb(0, 0, 0);
+        font-size:40px;
+        text-align: left;
+        padding: 30px;
+        font-family: "mont", sans-serf;
+        text-decoration: dashed;
+    }
+  
+    .netflix {
+        width: 620px;
+        height: 700px;
+        border-radius: 20px; 
+        margin-top: 40px;
+    }
+
+    .texto {
+    margin-top: -10px;
+    }
+
+    .img {
+        width: 650px;
+        height: 600px;
+        border-radius: 20px; 
+        margin-top: 40px;
+    }

@@ -1,0 +1,137 @@
+@font-face {
+    font-family: "mont";
+    src: url(./quadrinhos/quadrinhos/assets/fonts/Montserrat-VariableFont_wght.ttf);
+}
+
+.logo {
+width: 200px;
+height: 200px;
+margin: 0px 20px;
+}
+
+/*INICIO HEADER*/
+header {
+    display: flex;
+    align-items: center;
+   
+}
+a{
+    text-decoration: none ;
+    color: #bab407;
+    font-family:"mont", sans-serf;
+    font-size: 30px;
+    margin: 0 20px;
+   
+
+}
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+    width: 80%;
+   
+}
+
+.titulo {
+    color: #000000;
+    font-size: 30px;
+    font-family: "mont", sans-serif;
+    margin: 0 15px;
+
+}
+.titulo1 {
+    color: #ba0707;
+    font-size: 30px;
+    font-family: "mont", sans-serif;
+    margin: 0 15px;
+
+}
+.titulo2 {
+    color: #075dba;
+    font-size: 30px;
+    font-family: "mont", sans-serif;
+    margin: 0 15px;
+
+}
+
+.figura {
+    width: 100%;
+    border: 30px 30px;
+}
+
+
+
+h2 {
+    color: #000000;
+    font-size: 30px;
+    font-family: "mont", sans-serif;
+    margin: 30px 45px 20px;
+    padding: 20px 20px 20px 20px;
+}
+
+h4, h3, p {
+    font-family: "mont";
+}
+
+h5 {
+   
+    font-family: "mont";
+    background-color: #fffb92;
+    border-radius: 10px;
+    width: 110px;
+
+    
+
+}
+
+/* .botao {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+} */
+.manga {
+    border: 1px solid black;
+    width: 250px;
+    height: 470px;
+    text-align: center;
+    margin: 30px 30px 40px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    background-color: white;
+}
+
+.manga p {
+    min-height: 38px;
+
+}
+.manga img {
+    height: 220px;
+
+}
+.mangas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    justify-items: center;
+    align-items: center;
+}
+
+#mangas{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+footer nav {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+footer img {
+   width: 100px;
+justify-content: flex-end;
+}
