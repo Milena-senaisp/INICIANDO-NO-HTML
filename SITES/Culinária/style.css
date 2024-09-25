@@ -1,0 +1,156 @@
+* {
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   text-decoration: none;
+}
+
+header {
+ background-color:#ECA457 ;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ padding-right: 70px;
+ height: 150px;
+
+}
+
+.logo {
+    width: 130px;
+    height: 130px;
+    margin-left: 60px;
+}
+
+a{
+    color: white;
+    font-size: 25px;
+    margin: 5px;
+    margin: 10px;
+}
+
+.fundo {
+    width: 100%;
+    height: 570px;
+}
+
+.comidas {
+text-align: justify;
+width: 80%;
+font-size: 30px;
+ /* cima, direita, baixo, esquerda */
+}
+
+.titulo {
+    margin-top: 100px;
+    font-size: 50px;
+    color: #ECA457;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.comidas-saudaveis {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.comida {
+    width: 90px;
+    height: 90px;
+    margin-top: 25px;
+}
+
+.titulo-comida {
+    color: #000000;
+    font-size: 30px;
+    margin-left: 10px;
+    margin-bottom: -20px;
+}
+
+.texto-comida {
+    color: #AFA7A7;
+    font-size: 20px;
+    margin-left: 10px;
+    width: 170px;
+}
+
+#aprender {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.aprender-comida {
+    margin: 0 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo-aprender{
+    margin-top: 100px;
+    font-size: 50px;
+    color: #ECA457;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+hr {
+    color: #ECA457;
+    margin-top: 50px;
+}
+#final {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#blog {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.final-blog {
+    margin: 0 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.titulo-blog {
+    color: #000000;
+    font-size: 40px;
+    margin-left: 20px;
+    margin-bottom: -20px;
+}
+
+.texto-blog {
+    color: #AFA7A7;
+    font-size: 30px;
+    margin-left: 20px;
+    width: 600px;
+}
+
+.blog{
+    width: 150px;
+    height: 150px;
+    margin-top: 25px; 
+}
+
+footer {
+    background-color: #ECA457;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 170px;
+}
+
+.titulo-fim {
+    margin-top: 70px;
+    font-size: 50px;
+    color: #ECA457;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.logo-fim {
+    width: 130px;
+    height: 130px;
+}
